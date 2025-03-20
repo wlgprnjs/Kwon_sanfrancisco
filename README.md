@@ -52,3 +52,10 @@ Civilians of San Fransisco should be driving with a proactive mindset when it co
 I could have done a better job at merging the preprocessing files from one coding file. There were other data attributes I should have worked with but wasn't sure how it would relate, next time would be a good idea to attempt a model to test if there are any relations. 
 
 Possibily utilize the days of the week as each day instead of weekday / weekends. 
+
+**References**
+https://www.geeksforgeeks.org/create-a-new-column-in-pandas-dataframe-based-on-the-existing-columns/  
+https://pandas.pydata.org/ 
+https://chatgpt.com/?model=text-davinci-002-render-sha 
+https://scikit-learn.org/stable/auto_examples/cluster/plot_dbscan.html
+https://scikit-learn.org/stable/index.html
