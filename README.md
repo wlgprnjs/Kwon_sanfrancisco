@@ -13,7 +13,7 @@ For example, mondays have more sideswipe ( maybe from first day of work of the w
 
  ** note to self, try to have a focus on a proposal **
 	
-** Pre-processing**
+**Pre-processing**
 According to Google, rush hour in San Francisco is from 7:00 AM to 9:00 AM for morning commute and the evening commute from 4:00 PM to 6:00 PM
 If rush hour  = 1; if not rush hour = 0
 From Mon-Fri are labeled as weekdays, Sat - Sun are labeled as weekends
