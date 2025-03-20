@@ -13,7 +13,7 @@ For example, mondays have more sideswipe ( maybe from first day of work of the w
 
  ** note to self, try to have a focus on a proposal **
 	
-- Pre-processing
+** Pre-processing**
 According to Google, rush hour in San Francisco is from 7:00 AM to 9:00 AM for morning commute and the evening commute from 4:00 PM to 6:00 PM
 If rush hour  = 1; if not rush hour = 0
 From Mon-Fri are labeled as weekdays, Sat - Sun are labeled as weekends
@@ -37,18 +37,18 @@ weather_1 - The weather condition at the time of crash
 **Machine model:**
   Identifies accident prone areas based on location patterns from the database weekdayClusters and WeekendClusters. It takes the longitude and latitude for clustering and then K-means is applied. For weekdays 7 clusters are assigned while for weekends 4 clusters. The number of clusters are not the same because the weekday had significant more data. 
 
-Visualizaion:
+**Visualizaion:**
   For clustering map, Seaborn and Matplotlib were used. The red strats indicated cluster cenrtoids. This helped visualize hotspots and compare patterns between weekdays and weekends. 
   Tableau was also used to create visualization tables. A  for the number of different type of collision for intersection vs Midblock. This was shown with a Bar chart. Another visualization was created for the number of different type of collision for weekends and weekdays. This is shown with a treemap
   
-Conclusion:
+**Conclusion:**
   From the model we can see that on weekdays, the seven areas to avoid/ to be cautious in. Fulton st. AND
 Park Presidio Blvd, Market st, 19th st ANd Mission st, Park Presidio Blvd, 19th Ave AND Sloat Blvd, Revere ae
 AND Silver Ave on week days. On weekends Golden Gate Ave AND S VanNess Ave, Martin Luther King Jr AND 19th Ave, Friday Kahlo Way AND Ocean Ave, Cortland Ave AND Bayshore Blvd shoud be avoided or have caution area those areas. With the visualizations and the datasets, we can see that the most frequent type of collision on weekday and weekends are Braodside and Vehicle to Pedestrian. For intersections, broadside ( two cars colliding in a 90 degree angle) and for midblock, sideswipe is the most common. 
 
 Civilians of San Fransisco should be driving with a proactive mindset when it comes to the listed areas from the cluster map. They should be practicing pro-active driving when it comes intersections and midblocks, Keeping sideswipe and broadside in mind.
 
-After thoughts: 
+**After thoughts: **
 I could have done a better job at merging the preprocessing files from one coding file. There were other data attributes I should have worked with but wasn't sure how it would relate, next time would be a good idea to attempt a model to test if there are any relations. 
 
 Possibily utilize the days of the week as each day instead of weekday / weekends. 
